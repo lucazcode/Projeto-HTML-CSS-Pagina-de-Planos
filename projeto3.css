@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GERAL */
+
+body {
+  background-color: #0c1114;
+  color: whitesmoke;
+  width: 90%;
+  max-width: 950px;
+  margin: 0 auto;
+  font-family: system-ui;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+  background-color: #090b0b;
+  width: 100%;
+  min-width: 600px;
+  display: flex;
+  padding: 15px;
+}
+
+.nome-empresa {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.nome-empresa h1 {
+  margin: 0;
+  padding: 0 10px 0;
+  border-radius: 5px;
+}
+
+.server {
+  color: rgb(45, 219, 196);
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu .menu__botoes {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu ul {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: space-evenly;
+}
+
+.menu li {
+  list-style-type: none;
+  height: fit-content;
+  margin: 10px;
+}
+
+.menu a {
+  background-color: #090b0b;
+  padding: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  text-shadow: 0 0 3px white;
+  transition: 0.2s;
+}
+
+a.menu__botoes-ativo {
+  background-color: rgb(45, 219, 196);
+  color: #090b0b;
+  pointer-events: none;
+}
+
+/* TÍTULO DOS PLANOS */
+
+.conteudo__titulo {
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  margin-block: 40px;
+}
+
+/* PLANOS */
+
+.planos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 350px;
+}
+
+.planos__opcao {
+  height: max-content;
+  flex: 1;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #161b21;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.planos-info {
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.planos-info__titulo {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px rgb(45, 219, 196);
+}
+
+.gold {
+  border-bottom: solid 2px rgb(219, 187, 45);
+}
+
+li.goldli.beneficios__texto::marker {
+  color: rgb(219, 187, 45);
+}
+
+.goldtext {
+  color: white;
+  text-shadow: 0 0 2px rgb(219, 187, 45);
+}
+
+.planos__preço {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.planos-info__beneficios {
+  padding-left: 0;
+  list-style-position: inside;
+  flex-grow: 1;
+  margin-top: 10px;
+}
+
+li.beneficios__texto::marker {
+  color: rgb(45, 219, 196);
+}
+
+.planos-info__beneficios .beneficios__texto {
+  line-height: 1.8;
+}
+
+.planos-info__assinar {
+  text-transform: uppercase;
+  color: #161b21;
+  text-decoration: none;
+  background-color: rgb(45, 219, 196);
+  display: flex;
+  justify-content: center;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.planos-info__assinar.gold-assinar {
+  background-color: rgb(219, 187, 45);
+}
+
+.planos-info__assinar.gold-assinar:hover {
+  background-color: white;
+  box-shadow: 0 0 8px -2px rgb(219, 187, 45);
+}
+
+.planos-info__assinar:hover {
+  background-color: whitesmoke;
+  box-shadow: 0 0 8px -2px white;
+  transition: 0.2s;
+}
+
+/* =)! */
