@@ -9,7 +9,7 @@
 
 ## Demonstração
 
-**->** Você pode visitar a página aqui: [https://logineregistrolucazcode.netlify.app](https://paginadeplanoslucazcode.netlify.app/)
+**->** Você pode visitar a página aqui: [https://paginadeplanoslucazcode.netlify.app](https://paginadeplanoslucazcode.netlify.app/)
 
 
 ## Autores
